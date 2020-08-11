@@ -17,3 +17,4 @@ with socket.socket() as client_socket:
     response = client_socket.recv(1024)
     response = response.decode()
     print(response)
+ping
